@@ -1,0 +1,2 @@
+Publish the verified v1.0.2 BEacon Store theme release.
+Original idle and closed eye artwork preserved; blue listening eye generated during build.
