@@ -1,3 +1,8 @@
+## 1.0.1 - Consistent custom blink
+- Closed eye derives entirely from this theme's existing eye.png.
+- Original idle/listening artwork and configuration are unchanged.
+- Hardware testing pending.
+
 ﻿# Changelog
 
 ## 1.0.0 - 2026-11-02
