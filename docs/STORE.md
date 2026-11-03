@@ -1,34 +1,23 @@
-# BEacon Store readiness: NOVA Sentient Orb
+# BEacon Store submission: NOVA Sentient Orb
 
-This theme is maintained inside the multi-theme public repository
-[Matt87c/jibo-nova-community](https://github.com/Matt87c/jibo-nova-community).
+Developer: Matt87c
 
-**Version:** 1.0.0
-**Theme identity:** `NOVA Sentient Orb`
-**Release asset:** `jibo-nova-sentient-orb-theme.zip`
+Standalone repository: https://github.com/Matt87c/jibo-nova-sentient-orb-theme
 
-## Download and manual installation
+Current stable version: 1.0.1
 
-Download `jibo-nova-sentient-orb-theme.zip` from a community release or from this theme's
-`dist/` folder. In BEacon choose Store > Themes > three-dot menu >
-Upload Theme ZIP, then select this theme and Apply. Choose None to revert.
+Minimum jibo-tbd version: 3.1.6
 
-## Official Store compatibility
+Release asset: jibo-nova-sentient-orb-theme.zip
 
-BEacon's GitHub repository source expects a single installable theme or skill
-at the root of a GitHub repository, indexed from its **latest stable release**.
-This community monorepo contains **five** themes. Its combined GitHub release
-supports manual ZIP downloads, but is not automatically five independent Store
-entries. To obtain direct Store install/update per theme, publish separately
-reviewed theme repositories with matching manifests and release ZIPs, or
-agree on an alternate compatible storefront manifest with the BEacon maintainer.
+## Download and installation
 
-Do not claim official Store acceptance from this monorepo release alone.
+Download the release ZIP (not the source ZIP) at https://github.com/Matt87c/jibo-nova-sentient-orb-theme/releases/latest . In BEacon select Store > Themes > three-dot menu > Upload Theme ZIP, upload the ZIP, select the theme and Apply. Choose None to restore the original eye.
 
-## Acceptance before stable release
+## Store review status
 
-Complete `docs/HARDWARE_TEST.md` on real Jibo 5x1/BEacon using the exact
-release asset, including size/gaze, blink, listening, rollback, and restart.
-A green GitHub Actions check is **static validation**, not device acceptance.
+This is a public standalone repository with one theme, a root manifest.json, and a stable GitHub release. The maintainer reports testing on Jibo, but individual checklist entries are not independently verified. A stable GitHub release does not establish acceptance into the BEacon Store; listing and indexing are controlled by the maintainers.
 
-Format reference: https://github.com/Jibo-Revival-Group/BEam/blob/master/docs/themes.md
+The theme contains visual assets only; no credentials, private runtime configuration or native robot skill code. This documentation update does not modify the existing release ZIP or version tag.
+
+Format: https://github.com/Jibo-Revival-Group/BEam/blob/master/docs/themes.md

@@ -1,4 +1,8 @@
-# Hardware acceptance record: NOVA Sentient Orb v1.0.0
+# Hardware acceptance record: NOVA Sentient Orb v1.0.1
+
+## Reported test status
+
+The maintainer reports Jibo hardware testing and has published a stable community release. Individual checks below have not been attested or independently verified; record PASS only after verifying each scenario.
 
 Target: real Jibo running 5x1/OpenJibo and BEacon compatible with jibo-tbd >= 3.1.6.
 Do not modify the working robot's firmware, TLS configuration, NOVA adapter or native skill packages.
